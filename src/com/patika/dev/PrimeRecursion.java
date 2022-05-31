@@ -20,7 +20,7 @@ public class PrimeRecursion {
         public static void main(String[]args)
         {
             Scanner scan = new Scanner(System.in);
-            System.out.println("Please enter long side of rectangle :");
+            System.out.println("Please enter number :");
             int n = scan.nextInt();
             if (isPrime(n, 2))
                 System.out.println("Yes it's a Prime");
